@@ -179,7 +179,7 @@ Error Response:
   "path": "/repositories"
 }
 ```
-
+![Image](https://github.com/user-attachments/assets/f6de7e7f-5708-4f03-91fa-ef0efac4ef7e)
 
 ### 9. Testable urls for Testable Postman
 
