@@ -211,7 +211,9 @@ DELETE http://localhost:9090/api/github/repositories?name=example-repo
 
 ### 10. Results
 
-
+![Image](https://github.com/user-attachments/assets/4501c22b-9d1c-4cd4-a51b-df99d1bfac24)
+![Image](https://github.com/user-attachments/assets/1c20366e-253e-46b3-bf5a-9d35b2c10447)
+![Image](https://github.com/user-attachments/assets/8880ce1d-e64d-4b6b-b6ad-e11758e33b07)
 
 
 ### 11. Design Patterns Used
