@@ -13,6 +13,10 @@ This is a Spring Boot application that allows searching for GitHub repositories 
 
 ---
 
+# Tech Stack
+
+![Image](https://github.com/user-attachments/assets/fc59226b-7e41-40fd-816e-d56c98fa022e)
+
 ## Project Structure
 src  
 ├── main  
