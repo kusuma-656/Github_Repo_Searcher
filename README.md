@@ -63,10 +63,10 @@ cd github-repo-searcher
 ### 3. Configure Database
 Create a PostgreSQL database and configure the credentials in **src/main/resources/application.properties**:
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/githubdb
-spring.datasource.username=postgres
-spring.datasource.password=password
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.datasource.url=jdbc:postgresql://localhost:5432/githubdb <br>
+spring.datasource.username=postgres <br>
+spring.datasource.password=password <br>
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect <br>
 spring.jpa.hibernate.ddl-auto=update
 
 ### 4. Build the Project
@@ -211,18 +211,18 @@ DELETE http://localhost:9090/api/github/repositories?name=example-repo
 
 ### 10. Design Patterns Used
 
-Following are the design patterns followed:
-✔ Service Layer Pattern – Separates business logic from controllers.
-✔ Repository Pattern – Handles database operations.
-✔ DTO Pattern – For transferring data between layers.
-✔ Singleton Pattern – Ensures single instance of key services.
+Following are the design patterns followed: <br>
+✔ Service Layer Pattern – Separates business logic from controllers. <br>
+✔ Repository Pattern – Handles database operations. <br>
+✔ DTO Pattern – For transferring data between layers. <br>
+✔ Singleton Pattern – Ensures single instance of key services. <br>
 
 ### 11. Future Improvements
 
-✔ Add authentication using OAuth2 for GitHub API.
-✔ Implement caching for frequently accessed data.
-✔ Introduce pagination and sorting for large data sets.
-✔ Add OpenAPI (Swagger) documentation for better API reference.
+✔ Add authentication using OAuth2 for GitHub API. <br>
+✔ Implement caching for frequently accessed data. <br>
+✔ Introduce pagination and sorting for large data sets. <br>
+✔ Add OpenAPI (Swagger) documentation for better API reference. <br>
 
 
 
