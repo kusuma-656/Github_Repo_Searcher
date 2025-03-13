@@ -55,11 +55,9 @@ Handles global and custom exceptions using `@ControllerAdvice`.
 - PostgreSQL installed  
 - Maven installed  
 
-### 2. Clone the Repository
-```sh
-git clone https://github.com/your-repo/github-repo-searcher.git
-cd github-repo-searcher
-```
+### 2. Create a new Repository
+Create a new repository **Github_Repo_Searcher** in the github account
+
 ### 3. Configure Database
 Create a PostgreSQL database and configure the credentials in **src/main/resources/application.properties**:
 
@@ -183,6 +181,9 @@ Error Response:
 ```
 
 ### 9. Testable urls for Testable Postman
+
+
+
 
 **1. GET All Repositories by Username**
 ```sh
