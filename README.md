@@ -209,7 +209,12 @@ DELETE http://localhost:9090/api/github/repositories/1
 DELETE http://localhost:9090/api/github/repositories?name=example-repo
 ```
 
-### 10. Design Patterns Used
+### 10. Results
+
+
+
+
+### 11. Design Patterns Used
 
 Following are the design patterns followed: <br>
 ✔ Service Layer Pattern – Separates business logic from controllers. <br>
@@ -217,7 +222,7 @@ Following are the design patterns followed: <br>
 ✔ DTO Pattern – For transferring data between layers. <br>
 ✔ Singleton Pattern – Ensures single instance of key services. <br>
 
-### 11. Future Improvements
+### 12. Future Improvements
 
 ✔ Add authentication using OAuth2 for GitHub API. <br>
 ✔ Implement caching for frequently accessed data. <br>
