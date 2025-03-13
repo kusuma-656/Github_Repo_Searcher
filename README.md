@@ -180,6 +180,7 @@ Error Response:
 }
 ```
 
+
 ### 9. Testable urls for Testable Postman
 
 ![Image](https://github.com/user-attachments/assets/84d7fcd4-1648-469f-8999-4c8526e4d81f)
@@ -230,6 +231,15 @@ Following are the design patterns followed: <br>
 ✔ Implement caching for frequently accessed data. <br>
 ✔ Introduce pagination and sorting for large data sets. <br>
 ✔ Add OpenAPI (Swagger) documentation for better API reference. <br>
+
+### 13. Best Practices Followed
+✅ RESTful API structure <br>
+✅ Separation of concerns (Controller → Service → Repository)<br>
+✅ Dependency Injection using **@Autowired** <br>
+✅ Efficient Database Operations using **save()** (upsert)<br>
+✅ Robust Error Handling with **@ControllerAdvice**<br>
+✅ Use of @Transactional for atomic DB operations<br>
+✅ Clean and readable code
 
 
 
