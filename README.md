@@ -182,8 +182,7 @@ Error Response:
 
 ### 9. Testable urls for Testable Postman
 
-
-
+![Image](https://github.com/user-attachments/assets/84d7fcd4-1648-469f-8999-4c8526e4d81f)
 
 **1. GET All Repositories by Username**
 ```sh
